@@ -1,8 +1,8 @@
-# Tech201-git-github
-Tech201-git-github
-## Heading2
-### Heading3
-Let`s create our Markdown file
+# *Tech201-git-github*
+Basic practice of creating and editing a markdown file. 
+
+## Creating the Markdown file
+
 - Step 1: Open Git Bash 
 - Step 2: `git mkdir` + name of the directory you wish to create
 - Step 3: `cd` + name of the directory you have just created
@@ -18,6 +18,21 @@ Let`s create our Markdown file
 - Step 13: `git status` = to confirm that the changes have been added to your local environment
 - Step 14: `git commit -m "concise message"` = commit the changes you have made
 - Step 15: `git push -u origin main` = push the changes made in the local environment to the online environment
-- Step 16: check the online environment for the changes you have just made. 
-- These steps have been added from the local host.
+- Step 16: check the online environment for the changes you have just made.
+- *These steps have been added from the local host.*
+### Adding pictures to the Markdown file.
 ![](Git-PUSH-pULL.png)
+- Go into the local environment cloning the online one.
+- Download the picture that you wish to add to the environment.
+- Save the picture in the same folder as the README.md file. 
+- Now, in Pycharm or Bash, you should be able to code the following:
+- `![](name_of_the_image.png)`
+- On the right hand side, in the Preview side, you should be able to see the picture.
+- Now that we have the picture in the local environment, let`s push it in the online one.
+- `git add .` = add the changes (in this cade the picture) to the Markdown file.
+- `git status` = to make sure the changes have been sent. 
+- `git commit -m "concise message"` = commit the change.
+- `git push -u origin main` = push the change on the online environment.
+- Go on GitHub and check that the picture has been successfully added. 
+- Weehey! You have successfully added a picture to your Markdown file! 
+
