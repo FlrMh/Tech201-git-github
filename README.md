@@ -11,3 +11,4 @@ Step 5: git clone (https URL in GitHub of the repository you want to clone on yo
 Step 6: ls = listing files and directories
 Step 7: cd (name of the file or directory you want to navigate)
 Step 8: pwd = to confirm you navigating the file or directory.
+These steps have been added from the local host.
