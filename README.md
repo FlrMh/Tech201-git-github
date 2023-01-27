@@ -5,21 +5,22 @@ Basic practice of creating and editing a markdown file.
 -*These steps have been added from the local host.*-
 
 - Step 1: Open Git Bash 
-- Step 2: `git mkdir` + name of the directory you wish to create
+- Step 2: `mkdir` + name of the directory you wish to create
 - Step 3: `cd` + name of the directory you have just created
 - Step 4: `pwd` = shows current directory which you are navigating. 
 - Step 5: `git clone` + https URL in GitHub of the repository you want to clone in your local environment
 - Step 6: `ls` = listing files and directories
 - Step 7: `cd` + name of the file or directory you want to navigate
-- Step 8: `pwd` = to confirm which file or directory you are currently navigating
-- Step 9: `nano` + README.md = make changed to the README.md file (documentation file)
-- Step 10: add the changes that you want to make; once finished pres CTRL+X
-- Step 11: confirm the changes you made by pressing Y 
-- Step 12: `git add .` = add the changes made in your local environment
-- Step 13: `git status` = to confirm that the changes have been added to your local environment
-- Step 14: `git commit -m "concise message"` = commit the changes you have made
-- Step 15: `git push -u origin main` = push the changes made in the local environment to the online environment
-- Step 16: check the online environment for the changes you have just made.
+- Step 8: `ls` = to see the files in the directory (in this case to see the README.md file that you are about to edit)
+- Step 9: `pwd` = to confirm which file or directory you are currently navigating
+- Step 10: `nano` + README.md = make changed to the README.md file (documentation file)
+- Step 11: Add the changes that you want to make; once finished press CTRL+X
+- Step 12: Confirm the changes you made by pressing Y and Enter
+- Step 13: `git add .` = add the changes made in your local environment
+- Step 14: `git status` = to confirm that the changes have been added to your local environment
+- Step 15: `git commit -m "concise message"` = commit the changes you have made
+- Step 16: `git push -u origin main` = push the changes made in the local environment to the online environment
+- Step 17: check the online environment for the changes you have just made.
 - Great! You have successfully created and made changes to a Markdown file! 
 
 ### Adding pictures to the Markdown file.
